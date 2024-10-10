@@ -122,4 +122,36 @@ position: relative;
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+/* Existing styles... */
+
+/* Payment Section Styles */
+#payment .card {
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background-color: var(--light);
+}
+
+#payment .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+#payment .card-body {
+    padding: 2rem 1rem;
+}
+
+#payment .fa-3x {
+    color: var(--accent);
+}
+
+#payment .card-title {
+    color: var(--dark);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#payment .card-text {
+    color: var(--secondary);
+}
 
